@@ -1,90 +1,124 @@
 *{
-	margin: 0;
-	padding: 0;
-}
-body{
-	font-family: 'Playfair Display', serif;
+
 }
 /*header start*/
-header{}
-.wrapper{
+header{
 	overflow: hidden;
-	/*border: 1px solid red;*/
+	background-color: white;
+	padding: 10px 0;
+
+
+}
+.wrapper{
 	width: 90%;
 	margin: 0 auto;
+	overflow: hidden;
+
 }
 .logo{
-	width: 10%;
 	float: left;
-	/*border: 1px solid red;*/
-	padding: 50px 0;
+	width: 20%
+
 }
 .logo img{
 	width: 100%;
+	padding: 10px;
+
 }
 .menu{
 	width: 70%;
 	float: right;
-	/*border: 1px solid red;*/
+	margin-top: 15px;
+
+
 }
 .menu ul{
 	float: right;
+
 }
 .menu ul li{
 	list-style: none;
 	float: left;
+
 }
 .menu ul li a{
 	text-decoration: none;
-	padding: 54px 55px;
-	display: block;
-	color: #787878;
-	text-transform: uppercase;
-	font-size: 14px;
+	padding: 10px 20px;
 	transition: .4s;
+
 }
-.menu ul li:last-child a{
-	padding-right: 0;
-}
-.menu ul li a:hover{
+.menu ul li:hover a{
 	color: red;
+	background-color: blue;
+
 }
+
 /*header end*/
 /*banner start*/
-.nanner{}
-.banner img{
+#banner{
+	background-image: url(../image/home.jpg);
+	overflow: hidden;
+	min-height: 500px;
+
+}
+.bannar-img{
 	width: 100%;
+	display: block;
+}
+.dream{
+	width: 20%;
+	margin-top: 155px;
+	margin-bottom: 99px;
+	background-color: rgba(40,41,35,.5);
 }
 /*banner end*/
-.perfect{}
-.wrapper2{
-	width: 80%;
-	margin: 0 auto;
-	/*border: 1px solid red;*/
+/*services start*/
+.services{
+	overflow: hidden;
+	margin-left: 82px;
+	margin-top: 70px;
+
 }
-.perfect_content{
-	margin-top: 50px;
-	margin-bottom: 80px;
+.single_service{
+	float: left;
+	width: 281px;
+	background-color: #FFFFFF;
+	padding: 25px;
+	margin-right: 84px;
+
+
 }
-.common_text{
-	font-family: 'ubuntu', sans-serif;
-	font-size: 15px;
-	font-weight: 300;
-	text-transform: uppercase;
-	color: #b4ad9e;
+.single_service h4{
+	margin-left: 67px;
+
 }
-.perfect_content h1{
-	font-weight: 400;
-	font-size: 300;
-	color: #626262;
-	margin-top: 20px;
-	margin-bottom: 20px;
+.single_service img{
+
 }
-.text{
-	font-size: 14px;
-	color: #626262;
-	line-height: 1.5;
-	margin-bottom: 40px;
-	word-spacing: 1px;
+.single_service p{
+	width: 215px;
+	padding: 10px;
+	margin-left: 8px;
+
 }
-.perfect_content p{}
+.single_service button{
+	margin-left: 72px;
+
+}
+/*services end*/
+/*bloge start*/
+.bloge{
+	text-align: center;
+	margin-top: 59px;
+}
+.bloge p{
+	
+
+}
+/*bloge end*/
+/*footer start*/
+.footer{
+	text-align: center;
+	margin-top: 10px;
+}
+/*footer end*/
